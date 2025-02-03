@@ -3,128 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>MonishKumar Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-    body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    text-align: left;
-}
-header {
-    background: #333;
-    color: white;
-    padding: 20px;
-    font-size: 24px;
-}
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-}
-.card:nth-child(1) {
-    border: 5px solid #2196F3; 
-    border-style:dotted ;
-}
-.card:nth-child(2) {
-    border: 5px solid #af4e4c;  
-    border-style:dotted ;
-}
-.card:nth-child(3) {
-    border: 5px solid #FF5722; 
-    border-style:dotted ;
-}
-.card:nth-child(4) {
-    border: 5px solid #FFC107;
-    border-style:dotted ;
-}
-.card:nth-child(5) {
-    border: 5px solid #9C27B0;
-    border-style:dotted ;
-}
-.card:nth-child(6) {
-    border: 5px solid #00BCD4;
-    border-style:dotted ;
-}
-.card:nth-child(7) {
-    border: 5px solid #E91E63; 
-    border-style:dotted ;
-}
-.card {
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-footer {
-    background: #333;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-</style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e1d7e6;
+            color: #333;
+        }
+        nav {
+            background: #697d85;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2d3436;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .profile {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .profile img {
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid #b2bec3;
+        }
+        .card {
+            background: #3d8691;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #dfe6e9;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <center>
-    <header>MONISHKUMAR K</header>
-    </center>
+    <nav>
+        <a href="#About Me">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Workshops">Workshops</a>
+        <a href="#Internships">Internships</a>
+        <a href="#Certificates">Certificates</a>
+        <a href="#Contact">Contact</a>
+    </nav>
     <div class="container">
-        <div class="card">
-            <h2>About Me</h2>
-            <p>Hello, I am Monishkumar.K from Krishnagiri.I am currently purcuing the Electronics and Communication Engineering student passionate about signal processing and embedded systems, aiming to be an electronic engineer and future goes to my own Bussiness.</p>
+        <div class="profile">
+            <h2>MONISHKUMAR K</h2>
+            <p>Electronics and Communication Engineering Student</p>
         </div>
-        <div class="card">
+            <div id="About Me" class="card">
+                <h2>About Me</h2>
+                <p>Hello, I am Monishkumar.K from Krishnagiri.I am currently purcuing the Electronics and Communication Engineering student passionate about signal processing and embedded systems, aiming to be an electronic engineer and future goes to my own Bussiness.</p>
+            </div>
+        <div id="projects" class="card">
+            <h2>Projects</h2>
+            <p>Currently working on developing projects.</p>
+        </div>
+        <div id="Skills" class="card">
             <h2>Skills</h2>
             <ul>
-                <li>HTML</li>  
-                <li>CSS</li> 
+                <li>HTML</li>
+                <li>CSS</li>
                 <li>JavaScript</li>
-                <li>Java</li>  
+                <li>Java</li>
                 <li>Python</li>
             </ul>
         </div>
-        <div class="card">
-            <h2>Projects</h2>
-            <p>I have not yet had the opportunity to work on my formal projects,but I hope to work on projects in the future</p>
+        <div id="Workshops" class="card">
+            <h2>Workshops</h2>
+            <ul>
+                <li>PSG College of Technology</li>
+                <li>Sri Ramakrishna College of Technology</li>
+                <li>SNS College of Technology</li>
+            </ul>
         </div>
-        <div class="card">
-        <h2>Certificates</h2>
-        <ul>
-            <li>Infosys Springboard</li>
-            <li>Learnathon</li>
-            <li>Coursera</li>
-            <li>NPTEL</li>
-            <li>MatLab</li>
-        </ul>
+        <div id="Internships" class="card">
+            <h2>Internships</h2>
+            <ul>
+                <li>BSNL, Coimbatore</li>
+            </ul>
         </div>
-        <div class="card">
-        <h2>Workshops</h2>
-        <ul>
-            <li>PSG College of Technology</li>
-            <li>Sri Ramakrishna College of Technology</li>
-            <li>SNS college of Technology</li>
-        </ul>
+        <div id="Certificates" class="card">
+            <h2>Certificates</h2>
+            <ul>
+                <li>Infosys Springboard</li>
+                <li>Learnathon</li>
+                <li>Coursera</li>
+                <li>NPTEL</li>
+                <li>MatLab</li>
+            </ul>
         </div>
-        <div class="card">
-        <h2>Intership</h2>
-        <ul>
-            <li>I have Completed the Internship for BSNL, Coimbatore.</li>
-        </ul>
-        </div>
-        <div class="card">
+        <div id="Contact" class="card">
             <h2>Contact</h2>
-            <p>Email: monishkumar@gmail.com</p>
-            <p>LinkedIn: linkedin.com/in/example</p>
+            <ul>
+                <li>Email: monishkumar@gmail.com</li>
+                <li>LinkedIn: linkedin.com/in/example</li>
+            </ul>
         </div>
     </div>
     <footer>
-        <center>
         &copy; 2025 MONISHKUMAR K. All rights reserved.
-        </center>
     </footer>
 </body>
 </html>
